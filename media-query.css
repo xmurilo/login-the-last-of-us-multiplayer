@@ -23,6 +23,11 @@
 
 
 @media  screen and (min-width:998px) {
+
+  header {
+    background-position: center center;
+  }
+
   section {
     width: 800px;
     background-position: top center;
@@ -31,9 +36,7 @@
   }
   
   div.img-fac {
-    
     background-position: 49% 49%;
-    
   }
   
 }
