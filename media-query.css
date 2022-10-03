@@ -1,0 +1,19 @@
+@media  screen and (min-width:768px) {
+  section {
+    height: 510px;
+    width: 500px;
+    transition: 0.7s;
+    
+  }
+}
+
+
+@media  screen and (min-width:998px) {
+  section {
+    height: 510px;
+    width: 700px;
+    transition: 0.7s;
+    
+  }
+  
+}
