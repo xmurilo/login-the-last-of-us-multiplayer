@@ -1,18 +1,38 @@
 @media  screen and (min-width:768px) {
   section {
     height: 510px;
-    width: 500px;
-    transition: 0.7s;
-    
+    width: 564px;
+    transition: 0.7s ; 
   }
+  
+  div.img-fac {
+    height: 150px;
+  }
+
+
+  div.info {
+    font-size: 1.3em;
+  }
+
+  input{
+    padding: 10px;
+  }
+
 }
+
 
 
 @media  screen and (min-width:998px) {
   section {
-    height: 510px;
-    width: 700px;
-    transition: 0.7s;
+    width: 800px;
+    background-position: top center;
+    background-size: cover;
+   
+  }
+  
+  div.img-fac {
+    
+    background-position: 49% 49%;
     
   }
   

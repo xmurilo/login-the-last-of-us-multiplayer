@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="media-query.css">
     <title>Formulário</title>
@@ -12,15 +13,20 @@
     <main>
       <section id="login">
         <div class="img-fac">
+          <!-- Imagem da CSS -->
         </div>
+        <!--  H1 e Parágrafo -->
         <div class="info">
           <h1>Factions</h1>
           <p>Seja bem-vindo(a) novamente</p>
         </div>
+
+        <!-- Formuláro -->
         <div class="form">
           <form action="login.php" method="post" autocomplete="off">
             <div class="campo">
-              <label for="email"></label>
+             
+              <label for="email">  <span class="material-icons icon">person</span> </label>
               <input
                 type="email"
                 name="email"
@@ -32,17 +38,19 @@
             </div>
 
             <div class="campo">
-              <label for="psw"></label>
+              
+              <label for="psw"> <span class="material-icons icon">lock</span> </label>
               <input
                 type="password"
                 name="psw"
                 id="psw"
                 placeholder="Sua senha"
                 required
-                min="8"
+                minlength="8"
               />
             </div>
-
+            
+            <!-- Botão -->
             <div class="botao">
               <input type="submit" value="Entrar" />
               <input type="submit" value="Esqueci minha senha"/>
