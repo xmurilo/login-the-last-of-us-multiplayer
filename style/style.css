@@ -84,7 +84,7 @@ div.campo {
 
 
 input {
- 
+  width: 150px;
   padding: 5px;
   margin-top: 10px;
   border-radius: 10px;
@@ -96,12 +96,13 @@ div.botao {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  margin: auto;
 }
 
 
 
 div.botao input {
+  margin: auto;
+  margin-top: 5px;
   background-color: #000;
   color: #fff;
   border: 1px solid #000;
