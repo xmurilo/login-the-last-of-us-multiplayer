@@ -18,9 +18,10 @@ html, body {
 /* HEADER */
 
 header {
+  width: 95vw;
   background-color: #fff; 
   background-image: url(../img/naughty-dog.png);
-  background-size: 200px;
+  background-size: 180px;
   background-repeat: no-repeat;
   background-position: center center;
   padding: 10px;
