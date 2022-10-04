@@ -20,20 +20,13 @@ html, body {
 header {
   background-color: #fff; 
   background-image: url(../img/naughty-dog.png);
-  background-size: contain;
+  background-size: 200px;
   background-repeat: no-repeat;
-  background-position: 90px 0px  ;
+  background-position: center center;
   padding: 10px;
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.551);
 }
 
-div.cabecalho {
-  border: 1px solid #000;
-}
-
-header span {
-
-}
 
 
 
