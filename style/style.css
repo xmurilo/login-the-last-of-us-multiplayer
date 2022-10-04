@@ -15,21 +15,29 @@ html, body {
   overflow-x: hidden;
 }
 
+/* HEADER */
+
 header {
-  background-color: #fff;
+  background-color: #fff; 
   background-image: url(../img/naughty-dog.png);
-  background-position: 15% 45%;
-  background-size: 200px;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: 48%;
   padding: 10px;
-  box-shadow: 3px 3px 8px rgba(255, 255, 255, 0.467);
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.551);
+}
+
+div.cabecalho {
+  border: 1px solid #000;
 }
 
 header span {
-  
+
 }
 
- /* Principal */
+
+
+ /* MAIN */
 
 main {
   width: 100vw;
